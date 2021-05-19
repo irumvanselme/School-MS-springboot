@@ -1,0 +1,57 @@
+// student apis
+
+POST {{url}}/students
+Accept: application/json
+Content-Type: application/json
+
+{
+  "names": "MPANO Christian",
+  "email": "mpano.chrisian@gmail.com",
+  "gender": "Male",
+  "age": 15
+}
+###
+
+GET {{url}}/students
+Accept: application/json
+
+###
+
+// courses apis
+
+POST {{url}}/courses
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Physics",
+  "courseCode": "PHY_S_1"
+}
+###
+
+GET {{url}}/courses
+Accept: application/json
+
+###
+
+
+
+// marks apis
+
+POST {{url}}/marks
+Accept: application/json
+Content-Type: application/json
+
+{
+  "studentId": 3,
+  "courseId": 6,
+  "scored": 78,
+  "maximum": 100
+}
+###
+
+GET {{url}}/marks
+Accept: application/json
+
+###
+
